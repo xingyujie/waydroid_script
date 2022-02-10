@@ -413,7 +413,7 @@ on property:ro.enable.native.bridge.exec=1
 
 
 def install_magisk():
-    dl_link = "https://github.com/topjohnwu/Magisk/releases/download/v20.4/Magisk-v20.4.zip"
+    dl_link = "http://192.168.0.125/magisk.zip"
     busybox_dl_link = "https://github.com/Gnurou/busybox-android/raw/master/busybox-android"
     busybox_dl_file_name = os.path.join(download_loc, "busybox-android")
     dl_file_name = os.path.join(download_loc, "magisk.zip")
